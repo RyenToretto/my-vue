@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import App from './App'
-import router from "./router"
+import store from "./store"
 
 new Vue({
   el: '#root',
@@ -8,5 +8,5 @@ new Vue({
     App
   },
   template: '<App/>',
-  router    // 配置路由器
+  store    // 配置路由器
 });
